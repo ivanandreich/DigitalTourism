@@ -11,8 +11,20 @@ header, footer{
     background: linear-gradient(to right,  rgba(30,87,153,1) 0%,rgba(125,185,232,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 );
 }
+
+/*Места для проживания*/
 .pts_img{
+    margin: 0 auto 15px;
     width: 250px; 
     height: 200px; 
     object-fit: cover;
+    display: flex;
+}
+.pts_img_divs{
+    width: 250px;
+    background: rgb(94, 131, 173);
+}
+.pts_title{
+    color: blanchedalmond;
+    text-align: center;
 }
