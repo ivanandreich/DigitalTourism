@@ -11,3 +11,8 @@ header, footer{
     background: linear-gradient(to right,  rgba(30,87,153,1) 0%,rgba(125,185,232,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 );
 }
+.pts_img{
+    width: 250px; 
+    height: 200px; 
+    object-fit: cover;
+}
