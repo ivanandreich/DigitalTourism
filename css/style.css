@@ -14,6 +14,7 @@ header, footer{
 
 /*Места для проживания*/
 .pts_img{
+    margin-top: 15px;
     margin: 0 auto 15px;
     width: 250px; 
     height: 200px; 
@@ -21,10 +22,36 @@ header, footer{
     display: flex;
 }
 .pts_img_divs{
-    width: 250px;
+    width: 300px;
+    height: 400px;
     background: rgb(94, 131, 173);
+    border: 20px solid rgb(94, 131, 173);
+    position: relative;
 }
 .pts_title{
     color: blanchedalmond;
     text-align: center;
+}
+
+.addtobasketbtn{
+    position: absolute;
+    cursor: pointer;
+    display: flex;
+    bottom: 0;
+}
+
+.menu{
+    
+    
+    width: 6em;
+    display: flex;
+}
+
+.menubutton{
+    display: inline-block; /* Строчно-блочный элемент */
+    background: #8C959D; /* Серый цвет фона */
+    color: #fff; /* Белый цвет текста */
+    padding: 1rem 1.5rem; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 3px; /* Скругляем уголки */
 }
