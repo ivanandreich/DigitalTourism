@@ -41,8 +41,6 @@ header, footer{
 }
 
 .menu{
-    
-    
     width: 6em;
     display: flex;
 }
@@ -54,4 +52,16 @@ header, footer{
     padding: 1rem 1.5rem; /* Поля вокруг текста */
     text-decoration: none; /* Убираем подчёркивание */
     border-radius: 3px; /* Скругляем уголки */
+}
+.moreinfo_btn{
+    background: #8C959D; /* Серый цвет фона */
+    color: #fff; /* Белый цвет текста */
+    padding: 5px 5px; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 3px; /* Скругляем уголки */
+    position: absolute;
+    cursor: pointer;
+    display: flex;
+    bottom: 0;
+    right: 0;
 }
