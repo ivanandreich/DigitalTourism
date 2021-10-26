@@ -10,7 +10,7 @@
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css">
 
-    <title>Агрегатор для СПб</title>
+    <title>Места для проживания</title>
 </head>
 <body>
 <!--ШАПКА САЙТА-->
@@ -29,7 +29,7 @@
         </div>
     </div>
 </header>
-
+<!--____________________________________________КАТАЛОГ (ШАПКА)_____________________________________-->
     <section>
         <div class="container">
             <div class="row">
@@ -37,25 +37,34 @@
                     <h2 class="text-center text-uppercase mb-3">Места для проживания</h2>
                 </div>
             </div>
+
+<!--____________________________________________ЭЛЕМЕНТЫ КАТАЛОГА_____________________________________-->
+
             <div class="row">
                 <div class="col-xl-4 col-md-6 col-sm-12">
                     <div class="pts_img_divs" id="pts_1">
                         <img class="pts_img" src="/img/placestostay/1.jpg">
                         <h5 class="pts_title">Гостиница "Русь"</h5>
+                        <a class="moreinfo_btn" href="/main/placestostay/pts1.html">i</a>
                         <button class="addtobasketbtn">Добавить</button>
                     </div>
                 </div>
-                <div class="col-xl-4 col-md-6 col-sm-12">
+                <div class="col-xl-4 col-md-6 col-sm-12" style="cursor: pointer;"
+                 onclick="window.location='/main/placestostay/pts2.html';">
                     <div class="pts_img_divs" id="pts_2">
                         <img class="pts_img" src="/img/placestostay/2.jpg">
                         <h5 class="pts_title">Отель "Наследие" на Рижском</h5>
+                        <a class="moreinfo_btn" href="/main/placestostay/pts2.html">i</a>
+
                         <button class="addtobasketbtn">Добавить</button>
                     </div>
                 </div>
-                <div class="col-xl-4 col-md-6 col-sm-12">
+                <div class="col-xl-4 col-md-6 col-sm-12" style="cursor: pointer;"
+                 onclick="window.location='/main/placestostay/pts3.html';">
                     <div class="pts_img_divs" id="pts_3">
                         <img class="pts_img" src="/img/placestostay/3.jpg">
                         <h5 class="pts_title">Отель "Ланселот"</h5>
+                        <a class="moreinfo_btn" href="/main/placestostay/pts3.html">i</a>
                         <button class="addtobasketbtn">Добавить</button>
                     </div>
                 </div>
@@ -63,10 +72,16 @@
         </div>
     </section>
 
-
+<!--____________________________________________СКРИПТЫ_____________________________________-->
 <script src="/js/bootstrap.bundle.min.js"></script>
 <script src="/js/addtobasket.js"></script>
-
+<script>
+    function addToBasket(){
+        
+        var takenToBasket = document.getElementById("pts_1");
+        //takenToBasket =  
+    }
+</script>
 
 </body>
 </html>
